@@ -2,16 +2,18 @@ const input = require ("readline-sync")
 for(let i=1; i<=100; i++){
 
 
-  
+    if(i % 3 === 0 && i % 5 === 0){
+        console.log(i, "FizzBuzz, ")
+    }
   
     if(i % 3 === 0){
-        console.log(i, "fizz")
+        console.log(i, "Fizz,  ")
     }
     if(i % 5 !== 0 || i % 3 !== 0){
     console.log(i)
     }
     
     if(i % 5 === 0){
-        console.log(i, "buzz")
+        console.log(i, "Buzz, ")
     }
 }
