@@ -1,9 +1,9 @@
 const input = require("readline-sync")
-let soma
+let soma = 0
 
 for ( let i = 1; i >= 50; i++){
-    if (num % 2 === 0) {
-        total += num
+    if (i % 2 === 0) {
+        soma = soma + i
     }
 } 
-console.log(`a soma dos números pares é:  ${total}`)
+console.log(`a soma dos números pares é: ${soma}`)
