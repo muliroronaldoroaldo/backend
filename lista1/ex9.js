@@ -5,8 +5,9 @@ let menor = 0
 
 function menores(numA, numB){
     if(numA < numB)
-        menor = numA
-    return menor
+        return numA
+    else
+        return numB
 }
 
 console.log(menores(numA, numB))
